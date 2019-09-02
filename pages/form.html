@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Genesis test</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+    <link href="../styles/form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<main>
+    <div class="background">
+        <img src="../img/bg.jpg">
+    </div>
+    <div class="menu">
+        <ul>
+            <li>Название 1</li>
+            <li>Название 2</li>
+            <li>Название 3</li>
+            <li>Название 4</li>
+            <li>Очень длинное название</li>
+            <li>Очень очень длинное название</li>
+            <li>Длинное название 7</li>
+            <li>Длинное название 8</li>
+        </ul>
+    </div>
+    <div class="start">
+        <div class="quiz">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+            <form>
+                <div class="gender">
+                    <p>Я ищу:</p>
+            <div class="choiseA">
+                <img src="../img/man.png">
+                <h2>Вариант А</h2>
+            </div>
+            <div class="choiseB">
+                <img src="../img/girl.png">
+                <h2>Вариант Б</h2>
+            </div>
+                </div>
+                <div class="main_fields">
+                <p id="your_name">Ваше имя:</p>
+                <input type="text" placeholder="Виктория" class="input_name" onsubmit="return validateForm()">
+                    <p id="email_p">Email:</p>
+                    <input type="email" placeholder="vika@gmail.com" class="email_field" onsubmit="return validateEmail">
+                    <p id="think_p">Придумайте пароль:</p>
+                    <input type="password" placeholder="*********" class="pass_field">
+                    <div class="check">
+                    <input type="checkbox" id="confirm" name="subscribe" checked>
+                    <label for="confirm">Регистрируясь, вы подтверждаете, что вам уже исполнилось  18 лет</label>
+                    </div>
+                    <input type="button" id="continue" value="Продолжить" onclick="checkName(); checkEmail(); checkPass();">
+                </div>
+            </form>
+        </div>
+        <div class="border">
+            <div class="white_border">
+                <p>❤</p>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="../js/form.js"></script>
+</body>
+</html>

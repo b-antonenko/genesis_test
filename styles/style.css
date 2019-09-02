@@ -1,0 +1,143 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    width: 1920px;
+    height: 1080px;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+}
+
+.background img {
+    height: 100%;
+    width: 1600px;
+}
+
+.menu {
+    bottom: 0;
+    height: 55px;
+    width: 1442px;
+    background: white;
+    opacity: 0.8;
+    position: absolute;
+    margin: 0;
+    padding: 30px 0 0 120px;
+}
+
+.menu ul {
+    display: flex;
+    position: absolute;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.start {
+    width: 479px;
+    height: 1080px;
+    background-color: #f65596;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+
+.quiz {
+    height: 860px;
+    width: 466px;
+    background-color: white;
+    top: 223px;
+    right: 0;
+    position: absolute;
+}
+
+.quiz h2 {
+    color: #f65596;
+    font-size: 31pt;
+    font-weight: bold;
+    top: 115px;
+    left: 62px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.quiz p {
+    font-size: 24pt;
+    position: absolute;
+    top: 168px;
+    left: 62px;
+}
+
+.quiz h1 {
+    position: absolute;
+    top: 414px;
+    text-transform: uppercase;
+    left: 62px;
+    font-size: 34pt;
+}
+
+.start_quiz {
+    position: absolute;
+    top: 500px;
+    left: 62px;
+    background-color: #f65596;
+    height: 80px;
+    width: 276px;
+    border-radius: 30px;
+}
+
+.start_quiz p {
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 75px;
+    font-weight: bold;
+}
+
+
+.border {
+    height: 80px;
+    width: 80px;
+    background-color: #f65596;
+    border-radius: 50%;
+    top: 310px;
+    margin-left: -34px;
+    position: absolute;
+}
+
+.white_border {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.white_border p {
+    top: 5px;
+    left: 12px;
+    position: absolute;
+    color: #f65596;
+    font-size: 35px;
+}
